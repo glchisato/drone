@@ -45,13 +45,9 @@ public class CameraCtr : MonoBehaviour
     public float end_cam_len = 3f;
 
     List<Vector3[]> data = new List<Vector3[]>();
-
-    //List<Vector4> angle_data = new List<Vector4>();
-    //List<Vector3> posi_data = new List<Vector3>();
-
+    
     // Use this for initialization
     void Start () {
-        //File.Delete("./Assets/direction.csv");
 
         if(!Directory.Exists("./Assets/data")){
             Directory.CreateDirectory("./Assets/data");
